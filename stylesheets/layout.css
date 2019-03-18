@@ -7,6 +7,7 @@ html, body {
   height: 100%;
   margin: 0;
   overflow: hidden;
+  background-color: #78fbfd;
 }
 
 .origami div {
@@ -72,12 +73,21 @@ top: 300px;
   z-index: 1;
 }
 
-  img {
+  .frog {
   position: absolute;
   z-index: 1;
   left: 610px;
   top: 260px;
   width: 180px;
+  opacity: 0;
+}
+
+.arrow {
+  position: absolute;
+  top: 170px;
+  left: 670px;
+  width: 100px;
+  transform: rotate(90deg);
   opacity: 0;
 }
 
